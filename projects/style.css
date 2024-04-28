@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.brand img{
+    height: 50px;
+    margin: 20px;
+}
+
+nav{
+    background-color:white;
+    box-shadow: 1px 1px 5px black;
+}
+
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    margin-left: 12px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    bottom: 37px;
+}
+
+.main-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url("../img/main\ img.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-radius: 0%  0% 100% 100%;
+    padding: 120px;
+    color: white;
+    border-bottom: #000000 solid 2px;
+}
+
+.nav-item{
+    display: inline;
+}
+
+#br{
+    display: none;
+}
+
+.burger-link{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.burger-btn{
+    background: none;
+    color: black;
+    font-size: 35px;
+    border: none;
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 26px;
+    cursor: pointer;
+}
+
+#b-btn{
+    display: none;
+}
+
+.burger-list{
+    height: 340px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    top:90px;
+    border-radius: 5px;
+    text-align:center;
+    font-size: 20px;
+}
+
+.close{
+    background:none;
+    color: white;
+    border: none;
+    font-size: 17px;
+    text-align: left !important;
+    justify-content: left !important;
+}
+
+.projects-main{
+    margin-top: 40px;
+}
+
+.w{
+    background-color: #000000;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius:190px;
+    z-index: 9;
+    color: white;
+    font-size: 25px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#b-btn{
+    display: none;
+}
+
+.projects-img img{
+    height: 300px;
+}
+
+.filter-btn{
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    color: black;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}

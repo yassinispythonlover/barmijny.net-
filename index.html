@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="home">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icon/icon.png">
+    <title>barmijny</title>
+</head>
+<body>
+    <div class="main container main-container mn">
+        <div class="main-content mc main-con container">
+            <header class="header-main container hm-container">
+                <nav class="navbar nav nav-container container">
+                    <a href="" class="brand inline"><img src="./icon/icon.png" alt="" id="img"></a>
+                    <ul class="nav-list nl container nl-container inline">
+                        <li class="nav-item container"><a href="./index.html" class="nav-link">home</a></li>
+                        <li class="nav-item container"><a href="./contact/index.html" class="nav-link" id="contact">contact</a></li>
+                        <li class="nav-item container"><a href="./services/index.html" class="nav-link" id="service">services</a></li>
+                        <li class="nav-item container"><a href="./projects/index.html" class="nav-link" id="projects">projects</a></li>
+                        <li class="nav-item container"><a href="" class="nav-link" id="help">help?</a></li>
+                        <li class="nav-item container"><button onclick="darkmode()" class="dark nav-link" id="dark" style="background: none;"><i class="fa fa-moon-o dark-btn"></i></button></li>
+                    </ul>
+                    <button class="burger-btn" id="b-btn"><i class="fa fa-bars"></i></button>
+                    <ul class="burger-list br container br-container inline" id="br">
+                        <button class="close" id="close" style="text-align: left;">x</button>
+                        <li class="burger-item container"><a href="./index.html" class="burger-link">home</a></li>
+                        <li class="burger-item container"><a href="./contact/index.html" class="burger-link">contact</a></li>
+                        <li class="burger-item container"><a href="./services/index.html" class="burger-link">services</a></li>
+                        <li class="burger-item container"><a href="./projects/index.html" class="burger-link">projects</a></li>
+                        <li class="burger-item container"><a href="" class="burger-link">help?</a></li>
+                        <li class="burger-item container"><button onclick="darkmode()" class="dark nav-link" id="dark" style="color: white;"><i class="fa fa-moon-o dark-btn"></i></button></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="main-background main-bg m-g img-bg">
+                <center>
+                    <h1 class="auto-type">we designing a beatifull world</h1>
+                </center>
+            </div>
+        </div>
+        <br>
+        <center>
+            <div class="service-main services-row container" id="ser">
+                <div class="main-services-content container services-content">
+                    <div class="service-card inline" id="one">
+                        <div class="card-icon">
+                            <br>
+                            <i class="fa fa-desktop icon-card"></i>
+                        </div>
+                        <div class="card-text">
+                            <center>
+                                <h2 id="first-title">web development</h2>
+                                <br>
+                                <p id="one-p">if you need a website for your work or business you in true place</p>
+                                <div class="buttons">
+                                    <a href="./contact/index.html" class="card-btn">contact</a>
+                                    <a href="#projects" class="card-more">know more</a>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="service-card inline" id="two">
+                        <div class="card-icon">
+                            <br>
+                            <i class="fa fa-image icon-card"></i>
+                        </div>
+                        <div class="card-text">
+                            <center>
+                                <h2 id="second-title">graphic design</h2>
+                                <br>
+                                <p id="two-p">we offer all graphic design service like to postdesign,logo, ...etc</p>
+                                <div class="buttons">
+                                    <a href="./contact/index.html" class="card-btn">contact</a>
+                                    <a href="#projects" class="card-more">know more</a>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="service-card inline" id="three">
+                        <div class="card-icon">
+                            <br>
+                            <i class="fa fa-youtube-play icon-card"></i>
+                        </div>
+                        <div class="card-text">
+                            <center>
+                                <h2 id="third-title">video edit</h2>
+                                <br>
+                                <p id="three-p">if you have a channel and you get hard to edit vids we are here to help</p>
+                                <div class="buttons">
+                                    <a href="./contact/index.html" class="card-btn">contact</a>
+                                    <a href="#project" class="card-more">know more</a>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="service-card inline" id="four">
+                        <div class="card-icon">
+                            <br>
+                            <i class="fa fa-address-book-o icon-card"></i>
+                        </div>
+                        <div class="card-text">
+                            <center>
+                                <h2 id="fourth-title">ui/ux</h2>
+                                <br>
+                                <p id="four-p">we design while we help designers make live better with barmijny</p>
+                                <div class="buttons">
+                                    <a href="./contact/index.html" class="card-btn">contact</a>
+                                    <a href="#project" class="card-more">know more</a>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="service-card inline" id="five">
+                        <div class="card-icon">
+                            <br>
+                            <i class="fa fa-bullhorn icon-card"></i>
+                        </div>
+                        <div class="card-text">
+                            <center>
+                                <h2 id="fifth-title">Marketing</h2>
+                                <br>
+                                <p id="five-p">make your project or your online page famous now with barmijny!!!!</p>
+                                <div class="buttons">
+                                    <a href="./contact/index.html" class="card-btn">contact</a>
+                                    <a href="#projects" class="card-more">know more</a>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="service-card inline" id="six">
+                        <div class="card-icon">
+                            <br>
+                            <i class="fa fa-object-group icon-card"></i>
+                        </div>
+                        <div class="card-text">
+                            <center>
+                                <h2 id="six-title">project management</h2>
+                                <br>
+                                <p id="six-p">if you have a project but you cant manage it we here to help❤️</p>
+                                <div class="buttons">
+                                    <a href="./contact/index.html" class="card-btn">contact</a>
+                                    <a href="#projects" class="card-more">know more</a>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <br>
+        <div class="projects-main container project-container">
+            <center>
+                <div class="filter-buttons">
+                    <button class="filter-btn" id="first-btn">websites</button>
+                    <button class="filter-btn" id="second-btn">post designs</button>
+                    <button class="filter-btn" id="third-btn">card designs</button>
+                    <button class="filter-btn" id="fourth-btn">ui/ux designs</button>
+                </div>
+                <br>
+                <div class="project-content-main content-project"  id="projects">
+                    <div class="projects-card inline container">
+                        <div class="projects-img container">
+                            <img src="./img/projects/projects/1.png" alt="" id="f-img">
+                        </div>
+                    </div>
+                    <div class="projects-card inline container">
+                        <div class="projects-img container">
+                            <img src="./img/projects/projects/2.png" alt="" id="s-img">
+                        </div>
+                    </div>
+                    <div class="projects-card inline container">
+                        <div class="projects-img container">
+                            <img src="./img/projects/projects/3.png" alt="" id="t-img">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="projects-card inline container">
+                        <div class="projects-img container">
+                            <img src="./img/projects/projects/4.png" alt="" id="fo-img">
+                        </div>
+                    </div>
+                    <div class="projects-card inline container">
+                        <div class="projects-img container">
+                            <img src="./img/projects/projects/5.png" alt="" id="fi-img">
+                        </div>
+                    </div>
+                    <div class="projects-card inline container">
+                        <div class="projects-img container">
+                            <img src="./img/projects/projects/1.png" alt="" id="si-img">
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <center>
+            <div class="our-dream-team container team">
+                <div class="our-dream container c-team">
+                    <h1 class="team-title">Our Dream Team</h1>
+                    <div class="team-card container card-t inline">                   
+                        <div class="team-card-img team-img container">
+                            <img src="./img/projects/team section img.jpg" alt="">
+                        </div>
+                        <div class="team-text container">
+                            <center>
+                                <h3>yassin adel</h3>
+                                <p>WEB DEVELOPER</p>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="team-card container card-t inline">
+                        <div class="team-card-img team-img container">
+                            <img src="./img/projects/team section img.jpg" alt="">
+                        </div>
+                        <div class="team-text container">
+                            <center>
+                                <h3>yasser mahmoud</h3>
+                                <p>graphic design</p>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="team-card container card-t inline">
+                        <div class="team-card-img team-img container">
+                            <img src="./img/projects/team section img.jpg" alt="">
+                        </div>
+                        <div class="team-text container">
+                            <center>
+                                <h3>yousef mohamed</h3>
+                                <p>seo</p>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <br>
+        <hr>
+        <br>
+        <center>
+            <div class="input">
+                <br>
+                <h1>Contact us</h1>
+                <br>
+                <div class="content">
+                    <form action="insert.php" method="post">
+                        <input type="text" placeholder="firstname" class="o-in" id="first-name" name="uname">
+                        <input type="text" placeholder="secondname" class="o-in" id="second-name">
+                        <br>
+                        <br>
+                        <input type="email" placeholder="email..." class="o-in" id="email" name="email">
+                        <input type="date" id="birthday" class="o-in">
+                        <br>
+                        <br>
+                        <label class="margin" for="country">Choose your country:</label>
+                        <select class="margin" id="country" name="country" form="country">
+                            <option value="Egypt">Egypt</option>
+                            <option value="saudia">Suadia</option>
+                            <option value="Yemen">Yemen</option>
+                            <option value="seria">seria</option>
+                            <option value="Russia">russia</option>
+                        </select>
+                        <br>
+                        <br>
+                        <button class="submit" id="submit" name="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+        </center>
+        <br><br><br>
+        <footer class="footer-body">
+            <div class="rights-web container">
+                <p>©2024 yassinadelabdelhameed</p>
+            </div>
+            <br>
+            <br>
+            <div class="site-details">
+                <center>
+                    <div class="email-contact">
+                        <h3 id="change-color">barmijnynet@gmail.com</h3>
+                    </div>
+                </center>
+            </div>
+            <br>
+            <br>
+            <div class="social-sites">
+                <a href="https://www.facebook.com/profile.php?id=61550796309490"><i class="fa fa-facebook-square footer-icon"></i></a>
+                <a href="https://www.instagram.com/barmijny?igsh=MWV5ZzZ1bm40eXJ6OQ=="><i class="fa fa-instagram footer-icon"></i></a>
+                <a href="" id="sorry"><i class="fa fa-pinterest footer-icon"></i></a>
+            </div>
+            <br>
+        </footer>
+    </div>
+    <div class="loader-main" id="loader">
+        <center>
+            <span class="loader"></span>
+        </center>
+    </div>
+    <button id="up" class="up">^</button>
+    <a href="https://api.whatsapp.com/send/?phone=201029196997&text=welcome+how+we+can+help&type=phone_number&app_absent=0"><button id="contact" class="w"><i class="fa fa-whatsapp w-icon"></i></button></a>
+    <script src="node.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <script>
+        var typed = new Typed(".auto-type",{
+            strings : ["we designing a beatifull world", "Barmijny.net", "we designing a beatifull world"],
+            typeSpeed : 250,
+            backSpeed : 250,
+            loop:true
+        })
+    </script> -->
+</body>
+</html>
